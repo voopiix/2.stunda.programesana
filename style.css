@@ -62,7 +62,7 @@ input, button {
 
 button {
     width: 93%;
-    background: #3700ff;
+    background: #5776ff;
     color: white;
     cursor: pointer;
 }
@@ -73,6 +73,21 @@ input {
     padding: 8px;
     border: 1px solid #cccccc;
     border-radius: 10px;
+    text-align: center; 
+}
+
+#results{
+    width: 45%;
+    background: #e1d3fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
 }
